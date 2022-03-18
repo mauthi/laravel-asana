@@ -426,7 +426,7 @@ class Asana
      *
      * @return string|null
      */
-    public function updateProject($projectId = null, $data)
+    public function updateProject($projectId = null, $data = [])
     {
         $projectId = $projectId ?: $this->defaultProjectId;
 
